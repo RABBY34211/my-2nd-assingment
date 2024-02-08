@@ -165,6 +165,99 @@ form .element-width {
 }
 
 
+/* choose section style */
+.choose{
+    margin-top: 50px;
+}
+.choose-content{
+    text-align: center;
+
+}
+.choose-card-1{
+    
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+
+}
+.choose-card-2{
+   
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+
+}
+.choose-card-3{
+  
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+
+
+}
+.choose-card img{
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
+}
+.choose-card-3 img{
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
+
+}
+.card-title{
+    color: rgb(19, 19, 24);
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.choose-card{
+    text-align: left;
+    
+    
+}
+.choose-card-common{
+    padding: 20px;
+    width: 500px;
+    height: 284px;
+}
+.choose-card{
+    display: flex;
+    justify-content: space-between;
+}
+.choose-card-3{
+    margin: 30px auto;
+}
+
+
+/* footer style */
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+    text-align: center;
+    
+}
+.footer-title{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-icon{
+    border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+
 
 
 
@@ -173,8 +266,43 @@ form .element-width {
 
 /* responsive-style */
 
-/* banner section */
+
+
+
 @media screen and (max-width: 600px) {
+
+/* choose style */
+.choose{
+    margin: 0;
+    padding: 0;
+    
+}
+.choose-card-common {
+    width: 220px;
+height: 350px;
+position: relative;
+right: 30px;
+
+
+}
+.choose-card-3{
+    margin: 30px 0;
+
+}
+.choose-card{
+    flex-direction: column;
+    gap: 30px;
+}
+.choose-content-title{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+/* banner section */
     form{
         flex-direction: column;
         gap: 20px;
